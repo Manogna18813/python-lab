@@ -1,0 +1,8 @@
+a=int(input("enter a int number\n"))
+print(a,type(a))
+b=float(a)
+print("after typecasting a= ",b)
+c=float(input("enter a float number:\n"))
+print(c,type(c))
+d=int(c)
+print("after typecasting c= ",d)
