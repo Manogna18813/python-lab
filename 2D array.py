@@ -1,0 +1,11 @@
+import numpy as np
+matrix = np.array([[1, 2, 3],  [4, 5, 6],  [7, 8, 9]])
+print("Matrix:\n", matrix)
+print("Shape:", matrix.shape)
+print("Transpose:\n", matrix.T)
+print("Sum of all elements:", np.sum(matrix))
+print("Row-wise sum:", np.sum(matrix, axis=1))
+print("Column-wise sum:", np.sum(matrix, axis=0))
+print("Mean:", np.mean(matrix))
+print("Maximum element:", np.max(matrix))
+print("Minimum element:", np.min(matrix))
