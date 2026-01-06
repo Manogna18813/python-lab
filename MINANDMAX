@@ -1,0 +1,17 @@
+a=int(input("Enter a number: "))
+b=int(input("Enter a number: "))
+c=int(input("Enter a number: "))
+print("FINDING MAXIMUM:")
+if a>b and a>c:
+    print("maximum number is: ",a)
+elif b>a and b>c:
+    print("maximum number is: ",b)
+else:
+    print("maximum number is: ",c)
+print("FINDING MINIMUM:")
+if a<b and a<c:
+    print("minimum number is: ",a)
+elif b<a and b<c:
+    print("minimun number is: ",b)
+else:
+    print("minimum number is: ",c)
