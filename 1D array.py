@@ -1,0 +1,12 @@
+import numpy as np
+arr1=np.array([3,4,5,6,7])
+print("array: ",arr1)
+print("first element: ",arr1[0])
+print("last element: ",arr1[-1])
+print("sum is: ",np.sum(arr1))
+print("mean is: ",np.mean(arr1))
+print("median is: ",np.median(arr1))
+print("datatype: ",type(arr1))
+print("number of elements in array1: ",arr1.ndim)
+print("shape is: ",arr1.shape)
+print("size is: ",arr1.size)
