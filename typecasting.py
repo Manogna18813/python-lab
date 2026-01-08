@@ -1,3 +1,4 @@
+
 a=int(input("enter a int number\n"))
 print(a,type(a))
 b=float(a)
