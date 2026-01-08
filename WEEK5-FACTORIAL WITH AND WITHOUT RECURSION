@@ -1,0 +1,16 @@
+#without recursion:-
+print("factorial of a number without recurssion!")
+x=int(input("Enter a number:-"))
+fact=1
+for i in range(1,x+1):
+    fact*=i
+print("factorial of ",x,"is:",fact)
+#with recursion:-
+print("factorial of a number with recurssion!")
+y=int(input("Enter a number: "))
+def fact(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*fact(n-1)
+print("factorial of ",x,"is:",fact(y))
