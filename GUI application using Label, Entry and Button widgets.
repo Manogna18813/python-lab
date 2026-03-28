@@ -1,0 +1,16 @@
+import tkinter as tk
+window = tk.Tk()
+window.title("Simple GUI App")
+window.geometry("300x200")
+def show_text():
+    user_text = entry.get()
+    result_label.config(text="Hello " + user_text)
+label = tk.Label(window, text="Enter your name:")
+label.pack(pady=5)
+entry = tk.Entry(window)
+entry.pack(pady=5)
+button = tk.Button(window, text="Submit", command=show_text)
+button.pack(pady=10)
+result_label = tk.Label(window, text="")
+result_label.pack(pady=10)
+window.mainloop()
